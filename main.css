@@ -1,0 +1,55 @@
+/* Jimmy Lopez - July 29, 2023 */
+
+/* Body properties */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  background-image: url("space_background.jpg"); /* Space-themed background image */
+  background-size: cover;
+}
+
+/* Navigation properties */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for navigation */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Navigation links */
+nav a {
+  margin: 0 20px; /* Increased margin for better spacing between links */
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Styling for navigation links when hovered */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Rest of the CSS remains unchanged */
+
+/* Styling for buttons */
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for buttons when hovered */
+button:hover {
+  background-color: #0056b3;
+}
